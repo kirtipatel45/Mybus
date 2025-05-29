@@ -1,0 +1,92 @@
+/* seat book page */
+.selectseat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form1 {
+    border: 1px solid #000;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    background-color: #fff;
+    margin: 40px;
+}
+
+.bus {
+
+    padding: 25px;
+    width: 400px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+ }
+
+.seat {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+}
+
+.col {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* booking page */
+.book {
+    height: auto;
+    width: 350px;
+    border: 1px solid #000;
+    margin: 80px 650px;
+    background-color: #ccc;
+}
+
+.select {
+    height: 25px;
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#fafa
+{
+    text-align: right;
+}
+
+.bseat ,input:disabled{
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
